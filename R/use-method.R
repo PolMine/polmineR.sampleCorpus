@@ -10,7 +10,7 @@ setGeneric("use", function(object) standardGeneric("use"))
 setMethod("use", "character", function(object){
   if (object == "sampleCorpus"){
     path <- file.path(
-      system.file("sampleCorpus", package="polmineR.sampleCorpus"),
+      system.file("corpora", package="polmineR.sampleCorpus"),
       "registry"
     )
     Sys.setenv(CORPUS_REGISTRY=path)
