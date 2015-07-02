@@ -7,8 +7,9 @@ TAIL_PLPRBTTXT='# corpus properties provide additional information about the cor
 mkdir ${R_PACKAGE_DIR}/corpora
 mkdir ${R_PACKAGE_DIR}/corpora/registry
 
-echo $HEAD_PLPRBTTXT > ${R_PACKAGE_DIR}/corpora/registry/plprbttxt
-echo "HOME ${R_PACKAGE_DIR}/corpora/indexed_corpora/plprbttxt" >> ${R_PACKAGE_DIR}/corpora/registry/plprbttxt
+echo $HEAD_PLPRBTTXT > ${R_PACKAGE_DIR}/extdata/cwb/registry/plprbttxt
+echo "HOME ${R_PACKAGE_DIR}/extdata/cwb/indexed_corpora/plprbttxt" >> ${R_PACKAGE_DIR}/extdata/cwb/registry/plprbttxt
+echo "INFO ${R_PACKAGE_DIR}/extdata/cwv/indexed_corpora/plprbttxt/.info" >> ${R_PACKAGE_DIR}/extdata/cwb/registry/plprbttxt
 echo $TAIL_PLPRBTTXT >> ${R_PACKAGE_DIR}/corpora/registry/plprbttxt
 
-export CORPUS_REGISTRY=${R_PACKAGE_DIR}/corpora/registry
+export CORPUS_REGISTRY=${R_PACKAGE_DIR}/extdata/cwb/registry
