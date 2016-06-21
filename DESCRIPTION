@@ -1,12 +1,11 @@
 Package: polmineR.sampleCorpus
 Type: Package
 Title: polmineR.sampleCorpus
-Version: 0.1.0
-Date: 2014-12-07
+Version: 0.2.0
+Date: 2015-07-02
 Author: Andreas Blaette
 Maintainer: Andreas Blaette <andreas.blaette@uni-due.de>
 Depends:
-    methods
 LazyData: yes
 Description: Sample corpus for polmineR-package
 License: CC BY-NC-SA 3.0
