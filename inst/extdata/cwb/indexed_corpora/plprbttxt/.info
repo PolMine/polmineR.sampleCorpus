@@ -1,0 +1,2 @@
+CORPUS_TYPE = plpr
+ANCHOR_ELEMENT = text_id
